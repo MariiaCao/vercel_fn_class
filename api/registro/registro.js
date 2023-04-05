@@ -7,7 +7,7 @@ import {
 } from 'http-status-codes';
 
 //Sentry es una plataforma que nos permite monitorear la actividad registrada en nuestros endpoint
-let Sentry = require('@logs/sentry');
+//let Sentry = require('@logs/sentry');
 //joi es una libreria que contienen una serie de funciones validadoras de datos como el largo un texto o validaciones de email, etc. Basados en un esquema de validación customizado
 let joi = require('joi');
 
