@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios';
 
 const axiosPlaceHolder = axios.create({
     baseURL: 'https://jsonplaceholder.typicode.com',
