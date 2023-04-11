@@ -9,7 +9,7 @@ import {
 } from 'http-status-codes';
 // let axios = require('axios');
 //files
-let mock = require('@mock/alias');
+//let mock = require('@mock/alias');
 let axiosPlaceHolder = require('@mock_remote/axios_placeholder');
 let Sentry = require('@logs/sentry');
 
