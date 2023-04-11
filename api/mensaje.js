@@ -10,7 +10,7 @@ import {
 // let axios = require('axios');
 //files
 //let mock = require('@mock/alias');
-let axiosPlaceHolder = require('@mock_remote/axios_placeholder');
+import axiosPlaceHolder from '@mock_remote/axios_placeholder';
 let Sentry = require('@logs/sentry');
 
 module.exports = async function handler(req,res){
