@@ -7,14 +7,14 @@ import {
 	getReasonPhrase,
 	getStatusCode,
 } from 'http-status-codes';
-// let axios = require('axios');
+
 //files
 //let mock = require('@mock/alias');
 import axiosPlaceHolder from '../mock/remote/axios_placeholder.js';
 let Sentry = require('@logs/sentry');
 
 module.exports = async function handler(req,res){
-    //el objeto req puede contener informacion en req.body o req.query dependiendo que tipo de parametro sea enviados al endpint
+  
     if (req.method =='GET') {
         try {
             let url = '/posts';
