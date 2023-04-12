@@ -10,7 +10,7 @@ import {
 import axiosPlaceHolder from '../mock/remote/axios_placeholder.js';
 import Sentry from '../logs/sentry.js';
 
-module.exports = async function handler(req,res){
+export default async function handler(req,res){
   
     if (req.method =='GET') {
         try {
