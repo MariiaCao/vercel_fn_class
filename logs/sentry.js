@@ -6,4 +6,4 @@ Sentry.init({
   tracesSampleRate: 1.0,
 });
 
-module.exports = Sentry;
+export default Sentry;

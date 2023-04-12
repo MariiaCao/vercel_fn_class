@@ -6,4 +6,4 @@ const axiosPlaceHolder = axios.create({
     headers: {'X-Custom-Header': 'foobar'}
   });
 
-  module.exports = axiosPlaceHolder;
+export default axiosPlaceHolder;

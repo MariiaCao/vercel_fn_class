@@ -1,17 +1,14 @@
-require('module-alias/register')
+
 //libs
 
 import {
 	ReasonPhrases,
 	StatusCodes,
-	getReasonPhrase,
-	getStatusCode,
 } from 'http-status-codes';
 
 //files
-//let mock = require('@mock/alias');
 import axiosPlaceHolder from '../mock/remote/axios_placeholder.js';
-let Sentry = require('@logs/sentry');
+import Sentry from '../logs/sentry.js';
 
 module.exports = async function handler(req,res){
   
